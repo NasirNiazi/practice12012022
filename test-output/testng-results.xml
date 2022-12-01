@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-12-01T15:29:40 PST" name="Suite" finished-at="2022-12-01T15:30:02 PST" duration-ms="21357">
+    <groups>
+    </groups>
+    <test started-at="2022-12-01T15:29:40 PST" name="Test" finished-at="2022-12-01T15:29:46 PST" duration-ms="5918">
+      <class name="testBase.TC_002_LoginToMyAccount">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:testBase.TC_002_LoginToMyAccount@368247b9]" started-at="2022-12-01T15:29:41 PST" name="setUp" finished-at="2022-12-01T15:29:45 PST" duration-ms="4309" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="tc_002_login()[pri:0, instance:testBase.TC_002_LoginToMyAccount@368247b9]" started-at="2022-12-01T15:29:45 PST" name="tc_002_login" finished-at="2022-12-01T15:29:46 PST" duration-ms="936" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc_002_login -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testBase.TC_002_LoginToMyAccount@368247b9]" started-at="2022-12-01T15:29:46 PST" name="tearDown" finished-at="2022-12-01T15:29:46 PST" duration-ms="227" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testBase.TC_002_LoginToMyAccount -->
+    </test> <!-- Test -->
+    <test started-at="2022-12-01T15:29:46 PST" name="edgeTest" finished-at="2022-12-01T15:29:53 PST" duration-ms="6111">
+      <class name="testBase.TC_002_LoginToMyAccount">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:testBase.TC_002_LoginToMyAccount@74d1dc36]" started-at="2022-12-01T15:29:46 PST" name="setUp" finished-at="2022-12-01T15:29:52 PST" duration-ms="5153" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="tc_002_login()[pri:0, instance:testBase.TC_002_LoginToMyAccount@74d1dc36]" started-at="2022-12-01T15:29:52 PST" name="tc_002_login" finished-at="2022-12-01T15:29:52 PST" duration-ms="677" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc_002_login -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testBase.TC_002_LoginToMyAccount@74d1dc36]" started-at="2022-12-01T15:29:52 PST" name="tearDown" finished-at="2022-12-01T15:29:53 PST" duration-ms="277" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testBase.TC_002_LoginToMyAccount -->
+    </test> <!-- edgeTest -->
+    <test started-at="2022-12-01T15:29:53 PST" name="firefoxTest" finished-at="2022-12-01T15:30:02 PST" duration-ms="8924">
+      <class name="testBase.TC_002_LoginToMyAccount">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:testBase.TC_002_LoginToMyAccount@19e4653c]" started-at="2022-12-01T15:29:53 PST" name="setUp" finished-at="2022-12-01T15:29:59 PST" duration-ms="6371" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="tc_002_login()[pri:0, instance:testBase.TC_002_LoginToMyAccount@19e4653c]" started-at="2022-12-01T15:29:59 PST" name="tc_002_login" finished-at="2022-12-01T15:30:00 PST" duration-ms="1310" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc_002_login -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testBase.TC_002_LoginToMyAccount@19e4653c]" started-at="2022-12-01T15:30:00 PST" name="tearDown" finished-at="2022-12-01T15:30:02 PST" duration-ms="1238" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testBase.TC_002_LoginToMyAccount -->
+    </test> <!-- firefoxTest -->
+  </suite> <!-- Suite -->
+</testng-results>

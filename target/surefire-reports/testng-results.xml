@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-12-01T15:33:20 PST" name="Suite" finished-at="2022-12-01T15:33:31 PST" duration-ms="11327">
+    <groups>
+      <group name="Sanity">
+        <method signature="TC_001_RegisterClass.TC_001_Register()[pri:0, instance:testBase.TC_001_RegisterClass@5824a83d]" name="TC_001_Register" class="testBase.TC_001_RegisterClass"/>
+      </group> <!-- Sanity -->
+      <group name="Regrition">
+        <method signature="TC_001_RegisterClass.TC_001_Register()[pri:0, instance:testBase.TC_001_RegisterClass@5824a83d]" name="TC_001_Register" class="testBase.TC_001_RegisterClass"/>
+      </group> <!-- Regrition -->
+    </groups>
+    <test started-at="2022-12-01T15:33:20 PST" name="Test" finished-at="2022-12-01T15:33:31 PST" duration-ms="11327">
+      <class name="testBase.TC_001_RegisterClass">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:testBase.TC_001_RegisterClass@5824a83d]" started-at="2022-12-01T15:33:20 PST" name="setUp" finished-at="2022-12-01T15:33:24 PST" duration-ms="4198" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="TC_001_Register()[pri:0, instance:testBase.TC_001_RegisterClass@5824a83d]" started-at="2022-12-01T15:33:24 PST" name="TC_001_Register" finished-at="2022-12-01T15:33:31 PST" duration-ms="6420" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_001_Register -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testBase.TC_001_RegisterClass@5824a83d]" started-at="2022-12-01T15:33:31 PST" name="tearDown" finished-at="2022-12-01T15:33:31 PST" duration-ms="280" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testBase.TC_001_RegisterClass -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
